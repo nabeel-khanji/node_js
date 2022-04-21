@@ -8,7 +8,6 @@ const server = http.createServer((req, res) => {
     } else if (req.url == '/about') {
         res.end('hello from the about side');
     } else if (req.url == '/contact') {
-
         res.end('hello from the contact side');
     } else {
         res.writeHead(404, { "Content-type": "text/html" });

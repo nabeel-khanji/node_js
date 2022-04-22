@@ -4,7 +4,6 @@ const server = http.createServer((req, res) => {
     // console.log(req.url);
     if (req.url == '/') {
         res.end("hello from the home side nabeel");
-
     } else if (req.url == '/about') {
         res.end('hello from the about side');
     } else if (req.url == '/contact') {
